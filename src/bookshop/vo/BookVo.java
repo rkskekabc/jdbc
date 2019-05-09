@@ -43,5 +43,4 @@ public class BookVo {
 		return "BookVo [no=" + no + ", title=" + title + ", status=" + status + ", authorNo=" + authorNo
 				+ ", authorName=" + authorName + "]";
 	}
-	
 }

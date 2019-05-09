@@ -1,4 +1,4 @@
-package bookshop.example;
+package bookshop;
 
 import java.util.Scanner;
 
@@ -40,5 +40,5 @@ public class MainApp {
 		for( Book book : books ) {
 			book.print();
 		}
-	}
+	}	
 }

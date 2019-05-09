@@ -21,7 +21,7 @@ public class EmployeeDao {
 			Class.forName("org.mariadb.jdbc.Driver");
 			
 			//2. 연결하기
-			String url = "jdbc:mariadb://192.168.1.55:3307/employees";
+			String url = "jdbc:mariadb://192.168.43.19:3307/employees";
 			conn = DriverManager.getConnection(url, "hr", "hr");
 			
 			//3. SQL 준비
